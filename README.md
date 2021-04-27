@@ -13,25 +13,25 @@ Climb the website video with Python
 
 # 使用方法
 
-`def main():`
+`def main():
 
-`   urls = []`
+  urls = []
 
-  `  for i in range(2,3):`
+   for i in range(2,3):
   
-    `    urls.append('https://www.bilibili.com/video/BV1Ts411J7Zi?p='+str(i))`
+       urls.append('https://www.bilibili.com/video/BV1Ts411J7Zi?p='+str(i))
     
- `   for i in range(len(urls)):`
+   for i in range(len(urls)):
  
-       ` single_data(urls[i],i+2)		`		
+       single_data(urls[i],i+2)				
        
-     `   time.sleep(2)`
+        time.sleep(2)
      
- `   for x in range(3):`
+    for x in range(3):
  
-       ` th = threading.Thread(target=download)		`
+        th = threading.Thread(target=download)		
        
-     `   th.start() `
+        th.start() `
        
     更改
    >range(2,3):
