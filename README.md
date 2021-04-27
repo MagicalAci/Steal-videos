@@ -47,8 +47,8 @@ Climb the website video with Python
 
 在我的电脑里配置环境
 并更改代码中的目录
-`    command = f'D:\\RA_file\\py\\ffmpeg\\ffmpeg-4.3.1-win64-static\\bin\\ffmpeg -i "%s_video.mp4" -i "%s_audio.mp4" -acodec copy -vcodec copy "%s.mp4"' % (
+`    command = f'D:\\RA_file\\py\\ffmpeg\\ffmpeg-4.3.1-win64-static\\bin\\ffmpeg -i "%s_video.mp4" -i "%s_audio.mp4" -acodec copy -vcodec copy "%s.mp4"' % (video_name, video_name, video_name+'-合成')
 `
-其中
+
 >D:\\RA_file\\py\\ffmpeg\\ffmpeg-4.3.1-win64-static\\bin\
 需要更改的此时的根目录
