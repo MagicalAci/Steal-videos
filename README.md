@@ -12,8 +12,8 @@ Climb the website video with Python
 -from queue import Queue
 
 # 使用方法
-`````
-def main():
+
+```def main():
 
   urls = []
 
@@ -32,7 +32,8 @@ def main():
         th = threading.Thread(target=download)		
        
         th.start() 
-        `````
+        ```
+       
        
     更改
    >range(2,3):
