@@ -22,8 +22,8 @@ def main():
         time.sleep(2)
     for x in range(3):
         th = threading.Thread(target=download)		
-        th.start()
-        ```````````
+        th.start() ```````````
+       
     更改
    >range(2,3):
    为需要的级数，如其就是2级
