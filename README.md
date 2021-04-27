@@ -13,7 +13,7 @@ Climb the website video with Python
 
 # 使用方法
 
-```def main():
+def main():
 
   urls = []
 
