@@ -25,10 +25,10 @@ def main():
         th.start()
        `
     更改
-   `range(2,3):`
-    为需要的级数，如其就是2级
-    ` urls.append('https://www.bilibili.com/video/BV1Ts411J7Zi?p='+str(i))`
+   >range(2,3):
+   为需要的级数，如其就是2级
+   >urls.append('https://www.bilibili.com/video/BV1Ts411J7Zi?p='+str(i))
     更换网址
-    *其中p=多少是B站上的多少级，不填可以批量下载
+    *其中p=多少是B站上的多少级，不填可以批量下载*
     '
     
