@@ -41,3 +41,8 @@ Climb the website video with Python
 # 特殊说明
 此项目爬取的是音频+视频+音频和视频，届时按照需要删除或使用
     
+# 需要配置的工具环境
+链接：https://pan.baidu.com/s/1C2_Ncy87gS_Ao8-xA5jnTg 
+提取码：eb9c 
+
+在我的电脑里配置环境并更换代码中的索引目录
