@@ -13,7 +13,7 @@ Climb the website video with Python
 
 # 使用方法
 
-`def main():\n`
+`def main():`\n
 `   urls = []`
   `  for i in range(2,3):`
     `    urls.append('https://www.bilibili.com/video/BV1Ts411J7Zi?p='+str(i))`
