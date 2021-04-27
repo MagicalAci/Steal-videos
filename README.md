@@ -38,4 +38,5 @@ Climb the website video with Python
    >`single_data(urls[i],i+2)	`
     i从0开始，这个是用来命名的，我先在下载的是第二集，所以i+2
     
+**特殊说明：此项目爬取的是音频+视频+音频和视频，届时按照需要删除或使用
     
