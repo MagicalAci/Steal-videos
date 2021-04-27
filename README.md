@@ -45,4 +45,9 @@ Climb the website video with Python
 链接：https://pan.baidu.com/s/1C2_Ncy87gS_Ao8-xA5jnTg 
 提取码：eb9c 
 
-在我的电脑里配置环境并更换代码中的索引目录
+在我的电脑里配置环境
+并更改代码中的目录
+`    command = f'D:\\RA_file\\py\\ffmpeg\\ffmpeg-4.3.1-win64-static\\bin\\ffmpeg -i "%s_video.mp4" -i "%s_audio.mp4" -acodec copy -vcodec copy "%s.mp4"' % (
+`
+其中>D:\\RA_file\\py\\ffmpeg\\ffmpeg-4.3.1-win64-static\\bin\
+需要更改的此时的根目录
